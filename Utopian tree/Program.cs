@@ -19,19 +19,21 @@ namespace Utopian_tree
             while (numberTestCases != 0)
             {
                 var numberOfCycles = Convert.ToInt32(Console.ReadLine());
-                //Since the tree is planted on sprime it start whit heigh 1
+                //Since the tree is planted on spring it start with heigh 1
                 heigh = 1;
-                //Each cicle, if is pair is sumer, odd sprim      
-                numberOfCycles--;
-                while (numberOfCycles >= 0)
+                
+                while (numberOfCycles > 0)
                 {
                     if (sprim)
                         heigh = heigh * 2;
                     else
-                        numberOfCycles--;
+                        heigh = heigh + 1;
+
+                    numberOfCycles--;
                     sprim = !sprim;
                 }
                 heighs.Add(heigh);
+                sprim = true;
                 numberTestCases--;
             }
 

@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaCoding", "DeltaCoding\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagram", "Anagram\Anagram.csproj", "{67E93196-2BAA-49B3-A9A0-9E0B3F7A3544}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleNumberPrint", "MultipleNumberPrint\MultipleNumberPrint.csproj", "{3C754092-9445-430C-BE4C-DD766FF0A961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximizing XOR", "Maximizing XOR\Maximizing XOR.csproj", "{82C1B7BF-657F-4E13-8DC9-EB7EC0F72C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{67E93196-2BAA-49B3-A9A0-9E0B3F7A3544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67E93196-2BAA-49B3-A9A0-9E0B3F7A3544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67E93196-2BAA-49B3-A9A0-9E0B3F7A3544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C754092-9445-430C-BE4C-DD766FF0A961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C754092-9445-430C-BE4C-DD766FF0A961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C754092-9445-430C-BE4C-DD766FF0A961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C754092-9445-430C-BE4C-DD766FF0A961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C1B7BF-657F-4E13-8DC9-EB7EC0F72C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C1B7BF-657F-4E13-8DC9-EB7EC0F72C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C1B7BF-657F-4E13-8DC9-EB7EC0F72C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C1B7BF-657F-4E13-8DC9-EB7EC0F72C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
